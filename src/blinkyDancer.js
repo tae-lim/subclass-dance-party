@@ -1,6 +1,6 @@
-var makeBlinkyDancer = function(top, left, timeBetweenSteps) {
-
+var makeBlinkyDancer = function(top, left, timeBetweenSteps){
   makeDancer.call(this, top, left, timeBetweenSteps);
+  this.$node.addClass('blinky');
 
 };
 
@@ -14,3 +14,7 @@ makeBlinkyDancer.prototype.step = function() {
   this.$node.toggle();
 };
 
+// makeDancer.prototype.lineUp = function() {
+//   // this.$node.show();
+//   this.$node.animate({left: "220px"}, 1000);
+// };

@@ -1,13 +1,18 @@
 body, html{
   height:100%;
+   background: url(hyperbolic.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 body{
   margin: 0px;
-  background-color:#444;
+  background-color:silver;
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
-  color: lightblue;
+  color: black;
 }
 .title, .addDancerButton{
   padding:5px 12px;
@@ -15,13 +20,43 @@ body, a:link, a:visited, a:active{
 }
 .topbar{
   height:32px;
-  background-color: #555;
+  background-color: white;
+  color: black;
 }
 .title{
-  background-color: #777;
+  background-color: white;
+  color: black;
 }
-.dancer{
-  border:10px solid red;
-  border-radius:10px;
+.blinky{
+  width: 80px;
+  height: 140px;
+  background: url("Goku2.png") center;
+  object-fit: cover;
   position:absolute;
+
+}
+.shaky{
+  width: 80px;
+  height: 190px;
+  background: url("vegeta2.png") center;
+  object-fit: scale-down;
+  position:absolute;
+
+}
+.crazy {
+  width: 80px;
+  height: 170px;
+  background: url("Goku.png") center;
+  object-fit: fill;
+  position:absolute;
+}
+
+
+
+
+
+
+
+.danceOff{
+
 }
