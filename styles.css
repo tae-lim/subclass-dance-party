@@ -30,16 +30,16 @@ body, a:link, a:visited, a:active{
 .blinky{
   width: 80px;
   height: 140px;
-  background: url("Goku2.png") center;
+  background: url("Goku-65.gif") center;
   object-fit: cover;
   position:absolute;
 
 }
 .shaky{
-  width: 80px;
-  height: 190px;
-  background: url("vegeta2.png") center;
-  object-fit: scale-down;
+  width: 250px;
+  height: 500px;
+  background: url("https://media.giphy.com/media/RWTjXCECl6Z6U/giphy.gif") center;
+  object-fit: fill;
   position:absolute;
 
 }

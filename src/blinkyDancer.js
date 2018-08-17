@@ -13,8 +13,3 @@ makeBlinkyDancer.prototype.step = function() {
   makeDancer.prototype.step.call(this);
   this.$node.toggle();
 };
-
-// makeDancer.prototype.lineUp = function() {
-//   // this.$node.show();
-//   this.$node.animate({left: "220px"}, 1000);
-// };
